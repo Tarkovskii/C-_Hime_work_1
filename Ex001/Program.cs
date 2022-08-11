@@ -12,8 +12,12 @@ if (numberOne > numberSec)
     Console.WriteLine(numberOne);
 
 }
-else
+if (numberOne < numberSec)
 {
      Console.Write("Большее число = ");
      Console.WriteLine(numberSec);
+}
+else
+{
+    Console.Write("Числа равны.");
 }
