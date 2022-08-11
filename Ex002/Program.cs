@@ -9,16 +9,11 @@ int numberThir = Convert.ToInt32(Console.ReadLine());
 
 int max = numberOne;
 
-if (numberOne > numberSec)
-{
-    max = numberOne;
-}
-else
+if (max < numberSec)
 {
     max = numberSec;
 }
-
-if (numberThir > max)
+if (max < numberThir)
 {
     max = numberThir;
 }
