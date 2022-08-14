@@ -26,7 +26,7 @@ if (result == -1)
 }
 else
 {
-    Console.WriteLine($"Третья цифра числа {number} = {result}.");
+    Console.WriteLine($"Третья цифра числа {number} - {result}.");
 }
 
 
