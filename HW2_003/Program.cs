@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите номер число");
+﻿Console.WriteLine("Введите число от 1 до 7.");
 int numDay = Convert.ToInt32(Console.ReadLine());
 
 bool CheckWeekend(int number)
