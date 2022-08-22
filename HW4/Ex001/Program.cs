@@ -18,7 +18,7 @@ int[] FillArray(int numFir, int numSec)
 
     while (count <= numSec)
     {
-       arr[2] *= numFir;
+        arr[2] *= numFir;
         count++;
     }
 
@@ -27,9 +27,9 @@ int[] FillArray(int numFir, int numSec)
 
 void PrintArray(int[] arr)
 {
-    
-        Console.WriteLine($"Число {arr[0]} в степени {arr[1]} = {arr[2]}.");
-    
+
+    Console.WriteLine($"Число {arr[0]} в степени {arr[1]} = {arr[2]}.");
+
 
 }
 
