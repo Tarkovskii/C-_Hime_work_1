@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Введите пятизначное число");
 string number = Console.ReadLine();
 
-int CheckPalindrome(string number)
+bool CheckPalindrome(string number)
 {   
     string numStr = number;
 
@@ -16,15 +16,15 @@ int CheckPalindrome(string number)
 
     if (numFirst == numFift & numSec == numFour)
     {
-        return 1;
+        return true;
     }
-    return 0;
+    return false;
 
 }
 
-int result = CheckPalindrome(number);
+bool result = CheckPalindrome(number);
 
-if (result == 1)
+if (result == true)
 {
     Console.WriteLine($"Число {number} - палиндром.");
 }
