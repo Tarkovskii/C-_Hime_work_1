@@ -55,24 +55,18 @@ float GetMaxValue(float[] arr)
 
 float GetMinValue(float[] arr)
 {
-    float minA = arr[0];
+   float minNum = arr[0];
 
-    int i = 0;
-
-    while (i < arr.Length)
+    for (int i = 1; i < arr.Length; i++)
     {
-        if (minA > arr[i])
+        if (minNum > arr[i])
         {
-            minA = arr[i];
-            i++;
-        }
-        else
-        {
-            i++;
+            minNum = arr[i];
         }
 
     }
-    return minA;
+    return minNum;
+
 }
 
 
@@ -82,4 +76,4 @@ float min = GetMinValue(arr);
 PrintArray(arr);
 Console.WriteLine("");
 Console.WriteLine("");
-Console.WriteLine($"Разница между большим числом - {max} и меньшим числом - {min} равняется -  {max - min}");
+Console.WriteLine($"Разница между большим числом : {max} и меньшим числом : {min} равняется =  {max - min}");
