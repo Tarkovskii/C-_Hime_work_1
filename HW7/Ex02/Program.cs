@@ -1,5 +1,6 @@
 ﻿bool numN = int.TryParse(Console.ReadLine(), out int n);
 bool numM = int.TryParse(Console.ReadLine(), out int m);
+Console.WriteLine("Какое число ищешь?");
 bool numK = int.TryParse(Console.ReadLine(), out int k);
 
 if (numN == false && numM == false && numK == false)
